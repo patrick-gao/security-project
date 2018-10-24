@@ -12,32 +12,6 @@ const PORT = process.env.PORT || 5000
 
 var ip_array = [];
 
-async function ip_locate (ip) {
-	const config = {
-		method: 'POST',
-		headers: {
-			Accept: 'application/json',
-			'Content-Type': 'application/json'
-		}
-	};
-	let response = await fetch("https://tools.keycdn.com/geo.json?host="+ip, config)
-		.then(res => {
-        return new Promise((resolve, reject) => {
-            const dest = fs.createWriteStream('proxy_geodata.json');
-            res.body.pipe(dest);
-            res.body.on('error', err => {
-                reject(err);
-            });
-            dest.on('finish', () => {
-                resolve();
-            });
-            dest.on('error', err => {
-                reject(err);
-            });
-        });
-	});
-}
-
 console.log("Loading data...");
 const line_read = readline.createInterface({
 	input: fs.createReadStream('blocklist-proxy_list.txt')

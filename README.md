@@ -15,7 +15,7 @@ Local server:
 
 $ heroku local web
 
-Deploy to Heroku:
+## Deploy to Heroku
 
 $ heroku ps:scale web=1
 

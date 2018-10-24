@@ -2,5 +2,5 @@ language: node_js
 deploy:
   provider: heroku
   api_key: 
-    secure: 75871a0f-aad3-40a3-a5c8-80e9d9b58373
+    secure: YOUR_API_KEY_HERE
   app: proxy_search

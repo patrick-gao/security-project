@@ -12,10 +12,18 @@ Once you have those installed, clone the repository to your working directory.
 Install required node packages through npm install. Set up a Heroku app by following this [guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
 
 Local server:
+
 $ heroku local web
 
 Deploy to Heroku:
+
 $ heroku ps:scale web=1
+
+Open your app:
+
+$ heroku open
+
+
 
 File descriptions:
 

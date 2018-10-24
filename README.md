@@ -11,7 +11,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
 Once you have those installed, clone the repository to your working directory. 
 Install required node packages through npm install. Set up a Heroku app by following this [guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
 
-Local server:
+### Local server:
 
 $ heroku local web
 
@@ -24,8 +24,7 @@ Open your app:
 $ heroku open
 
 
-
-File descriptions:
+## File Descriptions
 
 views/index.ejs: 			 Front-end
 

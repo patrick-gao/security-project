@@ -23,7 +23,7 @@ $ heroku local web
 
 $ heroku ps:scale web=1
 
-##Opening your app
+## Opening your app
 
 $ heroku open
 

@@ -18,10 +18,14 @@ Deploy to Heroku:
 $ heroku ps:scale web=1
 
 File descriptions:
-views/index.ejs  			 Front-end
-server.js 					 Back-end
-blocklist-proxy_list.txt  	 Contains the text data for proxy IP addresses
-Procfile					 Launched by Heroku on deploy
+
+views/index.ejs: 			 Front-end
+
+server.js: 					 Back-end
+
+blocklist-proxy_list.txt:  	 Contains the text data for proxy IP addresses
+
+Procfile: 					 Launched by Heroku on deploy
 
 
 This project is maintained by [Patrick Gao](https://github.com/patrick-gao)

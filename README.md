@@ -13,7 +13,7 @@ Install required node packages through npm install. Set up a Heroku app by follo
 
 Create a Heroku repository and push your git repository
 
-$git push heroku
+$ git push heroku
 
 ## Running Locally
 

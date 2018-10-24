@@ -1,39 +1,22 @@
-# node-js-getting-started
+# proxy ip search
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+This is a basic app that sources IP addresses of proxies from [I-Blocklist](https://www.iblocklist.com) and allows you to search details of each through [KeyCDN](https://tools.keycdn.com/geo)
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+This project was created to make it more convenient to look up details of proxy addresses, gathered from a consistently updated database such as I-Blocklist. 
 
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+Once you have those installed, clone the repository to your working directory. 
+Install required node packages through npm install. Set up a Heroku app by following this [guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Local server:
+$ heroku local web
 
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
+Deploy to Heroku:
+$ heroku ps:scale web=1
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+This project is maintained by [Patrick Gao](https://github.com/patrick-gao)

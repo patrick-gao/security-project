@@ -1,4 +1,4 @@
-# proxy ip search
+# Proxy IP Search
 
 This is a basic app that sources IP addresses of proxies from [I-Blocklist](https://www.iblocklist.com) and allows you to search details of each through [KeyCDN](https://tools.keycdn.com/geo)
 
@@ -17,6 +17,7 @@ $ heroku local web
 Deploy to Heroku:
 $ heroku ps:scale web=1
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Documentation:
+
 
 This project is maintained by [Patrick Gao](https://github.com/patrick-gao)

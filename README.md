@@ -4,7 +4,7 @@ This is a basic app that sources IP addresses of proxies from [I-Blocklist](http
 
 This project was created to make it more convenient to look up details of proxy addresses, gathered from a consistently updated database such as I-Blocklist. 
 
-##Setting up 
+## Setting up 
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
